@@ -23,8 +23,9 @@ const screenOptions = {
         right: 0,
         left: 0,
         elevation: 0,
-        height: 60,
-        background: COLORS.white,
+        height: Platform.OS === 'android' ? 60 : 80,
+        backgroundColor: COLORS.white,
+        borderTopWidth: 0,
     },
 }
 const BottomTabNavigation = () => {
