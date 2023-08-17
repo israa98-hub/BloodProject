@@ -69,7 +69,7 @@ export default function App() {
                     name="BottomTabNavigation"
                     component={BottomTabNavigation}
                     options={{
-                        headerShown: false,
+                        headerShown: true,
                     }}
                 />
                 <Stack.Screen
